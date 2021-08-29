@@ -1,0 +1,11 @@
+import React from "react";
+import ContentLoader, { Rect, Circle } from "./react-content-loader/src/native";
+import { Path } from "react-native-svg";
+
+const MyLoader = () => (
+  <ContentLoader width="72" height="36">
+    <Path d="M15.8824 32C18.7752 32 21.4874 31.2208 23.8235 29.8595C26.1596 31.2208 28.8718 32 31.7647 32C33.9554 32 36.0425 31.5532 37.9412 30.745C39.8398 31.5532 41.9269 32 44.1176 32C52.8892 32 60 24.8366 60 16C60 7.16344 52.8892 0 44.1176 0C41.9269 0 39.8398 0.446827 37.9412 1.25495C36.0425 0.446827 33.9554 0 31.7647 0C28.8718 0 26.1596 0.779154 23.8235 2.14052C21.4874 0.779154 18.7752 0 15.8824 0C7.11077 0 0 7.16344 0 16C0 24.8366 7.11077 32 15.8824 32Z" />
+  </ContentLoader>
+);
+
+export default MyLoader;
